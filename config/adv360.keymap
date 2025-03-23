@@ -28,6 +28,7 @@
             #binding-cells = <0>;
             bindings = <&kp AT_SIGN &kp Q>;
             label = "NVIM_MACRO_Q";
+            wait-ms = <50>;
         };
 
         macro_nvim_select_all: nvim_select_all {
@@ -35,6 +36,7 @@
             #binding-cells = <0>;
             bindings = <&kp G &kp G &kp LS(V) &kp LS(G)>;
             label = "NVIM_SELECT_ALL";
+            wait-ms = <50>;
         };
 
         macro_tmux_copy_mode: tmux_copy_mode {
@@ -42,6 +44,7 @@
             #binding-cells = <0>;
             bindings = <&kp RC(B) &kp F>;
             label = "TMUX_COPY_MODE";
+            wait-ms = <50>;
         };
     };
 
